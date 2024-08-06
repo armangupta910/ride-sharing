@@ -17,13 +17,16 @@
         android:theme="@style/Theme.RideSharing"
         tools:targetApi="31">
         <activity
+            android:name=".enterLocation"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".AddDriversActivity"
             android:exported="false" />
         <activity
-            android:name=".enterLocation"
+            android:name=".auth"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

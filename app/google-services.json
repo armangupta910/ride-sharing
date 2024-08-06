@@ -13,7 +13,20 @@
           "package_name": "com.example.ridesharing"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "494627208543-0a4qev2kh3cfegacsntq2rkofl3f16m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridesharing",
+            "certificate_hash": "888cedee5b430e9954fd0021b4424b6818abc4e9"
+          }
+        },
+        {
+          "client_id": "494627208543-vqfcqsifr3kq4qfg8he64b1k4h6eflo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDgvvubykwesQENj49dJFrckpq37F6aUcs"
@@ -21,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494627208543-vqfcqsifr3kq4qfg8he64b1k4h6eflo6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
