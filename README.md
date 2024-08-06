@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RideSharing App README</title>
-</head>
-<body>
 
 <h1>RideSharing App</h1>
 <p>A ride-sharing Android application built using Kotlin, Firebase Realtime Database, and OpenRouteService API. This app displays user and driver locations on a map, calculates distances, and provides routing information.</p>
@@ -30,7 +22,7 @@
     <li>Fetch nearby driver locations and display them on the map.</li>
     <li>Calculate the shortest route from the user to the closest driver.</li>
     <li>Calculate the route from the driver to the destination.</li>
-    <li>Display user, driver, and destination markers on the map.</li>
+    <li>Display user and driver on the map.</li>
     <li>Fetch driver data from Firebase Realtime Database.</li>
 </ul>
 
