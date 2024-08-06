@@ -12,7 +12,6 @@
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
 </ul>
 
@@ -101,9 +100,6 @@ cd ridesharing-app</code></pre>
     <li>Push to the Branch (<code>git push origin feature/YourFeature</code>)</li>
     <li>Open a Pull Request</li>
 </ol>
-
-<h2 id="license">License</h2>
-<p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 <ul>
