@@ -73,8 +73,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
-//        picklat = intent.getStringExtra("picklat")!!.toDouble()
-//        picklong = intent.getStringExtra("picklong")!!.toDouble()
+        picklat = intent.getStringExtra("picklat")!!.toDouble()
+        picklong = intent.getStringExtra("picklong")!!.toDouble()
 //        droplat = intent.getStringExtra("droplat")!!.toDouble()
 //        droplong = intent.getStringExtra("droplong")!!.toDouble()
 
@@ -154,7 +154,7 @@ class MainActivity : AppCompatActivity() {
         }
         mapView.overlays.add(userMarker)
 
-        Toast.makeText(this,"User set",Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this,"User set",Toast.LENGTH_SHORT).show()
 
         val destination = GeoPoint(droplong, droplat)
 
@@ -164,7 +164,7 @@ class MainActivity : AppCompatActivity() {
             title = "Destination"
         }
         mapView.overlays.add(destMarker)
-        Toast.makeText(this,"Destination set",Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this,"Destination set",Toast.LENGTH_SHORT).show()
 
 
 //

@@ -41,6 +41,7 @@
     </LinearLayout>
 
     <TextView
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Drop Off Location"
@@ -51,6 +52,7 @@
         android:textAlignment="center"/>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
